@@ -1,0 +1,10 @@
+name: Example
+on: workflow_dispatch
+jobs:
+  First-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        run: |
+            echo "First output"
+            echo "Second output"
